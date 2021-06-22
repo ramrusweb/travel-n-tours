@@ -64,6 +64,14 @@ body {
   position: relative;
 }
 
+.page-01 {
+  padding-bottom: 324px;
+}
+
+.page-02 {
+
+}
+
 .title-h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
@@ -131,4 +139,45 @@ body {
   position: absolute;
   right: -85px;
   top: -33px;
+}
+
+.page-02 .wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box {
+  max-width: 481px;
+}
+
+.box-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.box-description {
+  font-family: 'Mulish', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  color: #7d7987;
+  line-height: 1.5;
+  margin-bottom: 49px;
+}
+
+.box-link {
+  background-color: #fb8f1d;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  padding: 18px 38px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.page-02-img {
+  position: absolute;
+  left: -94px;
+  top: -110px;
 }
